@@ -1,0 +1,288 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#E4E4E4;
+}
+/*头部开始*/
+.head{
+	background-color:rgba(0, 0, 0, 0.5);
+	height: 110px;
+	position:absolute;
+	width: 100%;
+}
+.logo {
+	float: left;
+	width: 40%;
+	margin:0px 0px 0px 50px
+}
+.logo span{
+	line-height: 110px;
+	font-size:50px ;
+	color: yellow;
+	font: Georgia;
+	font-weight: 900;
+}
+
+.head_right{
+	float: right;
+	margin:0px 90px 0px 0px;
+}
+.head_right span{
+	font-size: 25px;
+	line-height: 110px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: yellow;
+}
+
+/*头部结束*/
+
+/*轮播图开始*/
+.banner{
+	float: left;
+	margin:0px 0px 0px 0px;
+	position:relative;	  
+}
+.banner ul{
+	padding-left:0px;
+	font-size: 0px;
+	float: left;
+}
+.banner ul li{ 
+	float: left;
+	 position:relative;
+	list-style: none;
+}
+.banner img{
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+ul li{ 
+	float: left;
+	 position:relative;
+	list-style: none;
+}
+ul{
+	padding-left:0px; 
+	font-size:10px;
+	float: left;
+}
+.banner_font{
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.4);
+	line-height: 100%;
+	text-align: center;
+	height: 100%;
+	position:absolute;
+}
+.banner_font h3{
+	color: white;font-size: 50px;
+}
+.banner_font_{height: 43%;}
+
+/*轮播图结束*/
+
+/*关于我们开始*/
+.aboutus{
+	height: 450px;
+	width: 1300px;
+	margin: 10px 10% 0px 7%;
+	
+}
+.ab_top{
+	text-align: center;
+	height: 15%;
+}
+.ab_center{
+	height: 450px;
+	margin:0px 10% 0px 5%;
+}
+.ab_left{
+	float: left;
+	width: 530px;
+}
+
+.ab_left img{
+	float: left;
+	width: 100%;
+} 
+.ab_rigth{
+	width: 400px;
+	float: left;
+	margin:0px 3% 0px 70px;
+}
+.ab_rigth p{
+	text-indent: 2em;
+	font-size: 17px;
+	line-height: 35px;
+	color:#333333;
+}
+	
+/*关于我们结束*/
+
+/*按钮开始*/
+.more {
+    margin: 3em 0 1em;
+}
+.more a {
+   background: rgb(77,200,236);
+    color: #fff;
+    border: 2px solid rgb(77,200,236);
+    color: #FFFFFF;
+    padding: .4em 1em;
+    font-size: 1.3em;
+}
+.more a:hover {
+    background: rgb(19,19,19);
+    color: #fff;
+    border: 2px solid rgb(19,19,19);
+}
+/*按钮结束*/
+
+/*服务开始*/
+.service{
+	float: left;
+	margin:0px 0px 0px 0px;
+	position:relative;	  
+}
+.service img{
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+.service_font{
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.7);
+	line-height: 100%;
+	text-align: center;
+	height: 100%;
+	position:absolute;
+	line-height: 100%;
+}
+.service_font_{
+	color: white;
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+}
+.service_left{
+	float: left;
+	width: 30%;
+	height: 100%;
+	top:50%;
+	font-size:900;
+	margin:0px 0px 5% 15%;
+	text-align: left;
+}
+.service_left_{
+
+}
+.service_left p{
+	text-indent: 2em;
+	font-size: 17px;
+	line-height: 35px;
+	color:#E4E4E4;
+}
+.service_left div{
+	height: 20%;
+	
+}
+.service_right{
+	float: left;
+	width: 30%;
+	height: 100%;
+	line-height: 100%;
+	font-size:900;
+	margin:0px 5% 0px  15%;
+}
+.service_right div{
+	text-align: center;
+	width: 50%;
+	height: 40%;
+	float: left;
+}
+.service_right img{
+	width: 70px;
+}
+.service_right table{
+	text-align: center;
+}
+.service_right_span{
+	height: 100%;
+	line-height: 100%;
+	font-size: 30px;
+	}
+
+.service_right_span div{
+	width: 100%;
+	height: 50%;
+}
+/*服务结束*/
+
+/*相册开始*/
+.photo{
+	width: 1200px;
+	margin: 0px 10% 0px 10%;
+	height: 900px;
+}
+.photo li{
+	display: inline;
+	position: relative;
+	width: 400px;
+}
+.photo img{
+	width: 400px;
+}
+
+/*相册结束*/
+/*众筹开始*/
+.money_box{
+	width: 100%;
+	text-align: center;
+}
+.money_box img{
+	width: 20%;
+}
+/*众筹结束*/
+
+/*轮换开始*/
+.wrapper {width:520px; margin:0 auto; } 
+#focus {width:520px; height:378px;overflow:hidden; position:relative;}
+#focus ul {height:380px; position:absolute;}
+#focus ul li {float:left; width:520px; overflow:hidden; position:relative; background:#000;}
+#focus img{width: 100%;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btnBg {position:absolute; width:800px; height:20px; left:0; bottom:0; background:#000;}
+#focus .btn {position:absolute; width:780px; height:15px; padding:5px 10px; right:0; opacity:0.5; bottom:0; text-align:right;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext {width:45px; height:100px; position:absolute; top:60px; background:url(../images/advertisement_img/sprite.png) no-repeat 0 0; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}
+/*轮换结束*/
+
+/*页脚开始*/
+.foot{
+	color: #F5F5F5;
+	text-align: center;
+	height:150px;
+	background-color:#0A172D;
+	margin: 20px 0px 0px 0px;
+}
+/*页脚结束*/
